@@ -93,7 +93,7 @@ function App() {
   };
 
   return (
-    <>
+    <main>
     
     <div className='heading'>
       <h1>Our Menu</h1>
@@ -101,14 +101,17 @@ function App() {
     </div>
     
     <div className='filter-btns'>
-      <button 
+      <button
       onClick={() => filterDishesByCategory('all')} type='button'>All</button>
       <button
+      id='filter-btn-1' 
       onClick={() => filterDishesByCategory('Breakfast')}
       type='button'>Breakfast</button>
       <button
+      id='filter-btn-2'
       onClick={() => filterDishesByCategory('Lunch')} type='button'>Lunch</button>
       <button
+       id='filter-btn-3'
       onClick={() => filterDishesByCategory('Shakes')}
       type='button'>Shakes</button>
     </div>
@@ -117,7 +120,7 @@ function App() {
        <Menu dishes={dishes} />
      </div>
     
-     </>
+     </main>
   );
 }
 
