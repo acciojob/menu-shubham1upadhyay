@@ -1,3 +1,6 @@
+*{
+    background-color: beige;
+}
 h1 {
     color: #27aedb;
     text-align: center;
@@ -9,4 +12,32 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+h1{
+    padding: 20px;
+    color: black;
+}
+.heading-hr{
+    width: 80px;
+    height: 5px;
+    margin-top: -10px;
+    color: brown;
+    background-color: brown;
+}
+.filter-btns{
+    text-align: center;
+    margin: 50px;
+}
+.filter-btns button{
+    background:transparent;
+    border: none;
+    color: brown;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }

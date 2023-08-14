@@ -1,0 +1,40 @@
+.father{
+    width: 600px;
+    height: 150px;
+    display: flex;
+}
+.son1{
+    width: 200px;
+    height: 100%;
+    padding: 10px;
+}
+.son1 img{
+    width: 170px;
+    border: 5px solid brown;
+    border-radius: 5px;
+}
+.son2{
+    width: 400px;
+    height: 100%;
+}
+.son2-child1{
+    padding:0px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px brown dashed;
+}
+.son2-child2{
+    margin-top: -5px;
+    padding:0px 10px;
+    font-size: 18px;
+}
+
+.price{
+    color: brown;
+}
+.grand-father{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    padding: 20px;
+}
